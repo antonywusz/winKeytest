@@ -50,8 +50,6 @@ namespace winKeytest
             this.Focus();
             //SendKeys.SendWait("CAMERA");
 
-            //Thread.Sleep(1000);            
-            //input.Keyboard.TextEntry("CAMERA");
             input.Keyboard.TextEntry("camera");
 
             Thread.Sleep(100);
